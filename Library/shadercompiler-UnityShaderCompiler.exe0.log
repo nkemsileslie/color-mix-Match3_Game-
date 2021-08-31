@@ -1,0 +1,5 @@
+Base path: 'C:/2020.2.0a18/Editor/Data', plugins path 'C:/2020.2.0a18/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process

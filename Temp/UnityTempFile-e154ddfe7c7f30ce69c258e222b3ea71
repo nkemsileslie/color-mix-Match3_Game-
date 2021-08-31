@@ -1,0 +1,483 @@
+/target:library
+/out:"Temp/Unity.2D.Animation.Editor.dll"
+/nowarn:0169
+/nowarn:0649
+/refout:"Temp/Unity.2D.Animation.Editor.dll.ref"
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:"Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
+/reference:"Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll"
+/reference:"Library/ScriptAssemblies/Unity.2D.Common.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+/reference:"Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll"
+/reference:"Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+/reference:"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"/home/leslie/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_4_6
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_15
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+/define:UNITY_ASSERTIONS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_LINUX
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+/define:USE_SEARCH_ENGINE_API
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/Analytics.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/AssemblyInfo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/ClipperLib/clipper.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/ICharacterDataProvider.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/LayoutOverlay/DropdownMenu.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/LayoutOverlay/LayoutOverlay.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/LayoutOverlay/LayoutOverlayUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/LayoutOverlay/Manipulators/Draggable.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/LayoutOverlay/ScrollableToolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/ResourceLoader.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/AssociateBonesScope.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/BaseTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/BoneDrawingUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Cache/BaseObject.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Cache/Cache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Cache/CacheObject.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/CharacterModeTool/SwitchModeTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/ColorExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/CopyTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/DefaultPoseScope.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/DrawingUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/GenerateGeometryTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/GenerateWeightsTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/HorizontalToggleTools.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/Brush.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/GUIWrapper.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/ISkeletonView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/ISpriteMeshView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/RectSelectionTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/RectSlider.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/SkeletonController.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/SkeletonView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/Slider2D.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/SpriteMeshController.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/SpriteMeshView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/UnselectTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IMGUI/WeightInspector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/IconUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MathUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MeshPreviewTool/IMeshPreviewBehaviour.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MeshPreviewTool/MeshPreviewBehaviour.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MeshPreviewTool/MeshPreviewTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MeshTool/MeshTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/MeshTool/MeshToolWrapper.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/ModuleToolGroup.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/ModuleUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/OutlineGenerator/IOutlineGenerator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/OutlineGenerator/OutlineGenerator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/BoneSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/IBoneSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/ISelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/ITransformSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/IndexedSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/SerializableSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selection/SkeletonSelection.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SelectionTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/CircleVertexSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/GenericVertexSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/ICircleSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/IRectSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/ISelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/RectBoneSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/RectVertexSelector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Selectors/Unselector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SerializableDictionary.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkeletonTool/SkeletonStyles.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkeletonTool/SkeletonTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkeletonTool/SkeletonToolView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkeletonTool/SkeletonToolWrapper.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/BoneCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/BoneCacheExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/CharacterCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/CharacterPartCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/CharacterPartCacheExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/MeshCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/MeshPreviewCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkeletonCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkeletonCacheExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkinningCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkinningCachePersistentState.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkinningEnums.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SkinningEvents.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SpriteCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/SpriteCacheExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/TransformCache.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCache/TransformCacheExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningCopyUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningModule.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningModuleView.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningSerializer/ISkinningSerializer.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningSerializer/SkinningSerializerJSON.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SkinningSerializer/SkinningSerializerXML.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceListWidget.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceWindow.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/BoneWeightExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/Edge.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/EditableBoneWeight.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/EditableBoneWeightUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/SmoothingUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/SpriteMeshData.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/SpriteMeshDataController.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/Vertex2D.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/SpriteMeshData/WeightEditor.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/TextContent.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Triangulation/ITriangulator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Triangulation/TriangulationUtility.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Triangulation/Triangulator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/BoneInspectorPanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/BoneToolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/CopyToolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/GenerateGeometryPanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/GenerateWeightsPanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/MeshToolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/PastePanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/Toolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/VisualElementExtensions.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/WeightInspectorIMGUIPanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/WeightPainterPanel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UI/WeightToolbar.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/DisableUndoScope.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/DisabledUndo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/ICacheUndo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/IUndo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/UndoScope.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/Undo/UnityEngineUndo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/UserSettings.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/BoneReparentTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/BoneTreeViewController.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/BoneTreeViewModel.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/BoneVisibilityTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/BoneVisibilityToolInterface.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/MeshVisibilityTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/SpriteVisibilityTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/VisibilityTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/VisibilityToolBase.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/VisibilityToolColumnHeader.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/VisibilityTool/VisibilityToolResizer.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/WeightPainterTool.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/WeightPainterToolWrapper.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/WeightsGenerator/BoundedBiharmonicWeightsGenerator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SkinningModule/WeightsGenerator/IWeightsGenerator.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteLib/SpriteLibraryAssetInspector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteLib/SpriteLibraryDataProvider.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteLib/SpriteLibraryInspector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteLib/SpriteResolverInspector.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteLib/SpriteSelectionWidget.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteOutlineRenderer/SpriteOutlineRenderer.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpritePostProcess.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/BoneGizmo.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/BoneGizmoToggle.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/SpriteSkinCompositeDebugWindow.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/SpriteSkinEditor.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/SpriteSkinEntityEditor.cs"
+"/home/leslie/Desktop/games/color mix/Library/PackageCache/com.unity.2d.animation@5.0.6/Editor/SpriteSkin/TransformExtensions.cs"
